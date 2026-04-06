@@ -1,0 +1,20 @@
+CREATE TABLE `home_content` (
+  `id` integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+  `hero_title` text,
+  `hero_subtitle` text,
+  `hero_primary_label` text,
+  `hero_primary_href` text,
+  `hero_secondary_label` text,
+  `hero_secondary_href` text,
+  `profile_title` text,
+  `profile_body` text,
+  `profile_body_2` text,
+  `vision_title` text,
+  `vision_body` text,
+  `mission_title` text,
+  `mission_items` text,
+  `extra_title` text,
+  `extra_body` text,
+  `created_at` integer DEFAULT (strftime('%s', 'now')),
+  `updated_at` integer DEFAULT (strftime('%s', 'now'))
+);

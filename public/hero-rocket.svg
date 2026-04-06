@@ -1,0 +1,41 @@
+<svg width="900" height="720" viewBox="0 0 900 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="rocket" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F472B6"/>
+      <stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(450 360) rotate(90) scale(260 360)">
+      <stop stop-color="#A78BFA" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#0F172A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="720" rx="48" fill="url(#bg)"/>
+  <ellipse cx="450" cy="360" rx="320" ry="220" fill="url(#glow)"/>
+  <g opacity="0.9">
+    <rect x="110" y="160" width="220" height="140" rx="20" fill="#1F2937"/>
+    <rect x="140" y="190" width="160" height="20" rx="10" fill="#F8FAFC" fill-opacity="0.7"/>
+    <rect x="140" y="230" width="120" height="16" rx="8" fill="#E2E8F0" fill-opacity="0.5"/>
+  </g>
+  <g opacity="0.9">
+    <rect x="580" y="170" width="200" height="120" rx="20" fill="#1E293B"/>
+    <rect x="610" y="200" width="140" height="18" rx="9" fill="#F8FAFC" fill-opacity="0.7"/>
+    <rect x="610" y="230" width="100" height="14" rx="7" fill="#E2E8F0" fill-opacity="0.5"/>
+  </g>
+  <g>
+    <ellipse cx="450" cy="490" rx="140" ry="36" fill="#0B1020"/>
+    <rect x="360" y="230" width="180" height="260" rx="90" fill="url(#rocket)"/>
+    <circle cx="450" cy="330" r="44" fill="#0F172A"/>
+    <circle cx="450" cy="330" r="28" fill="#38BDF8"/>
+    <path d="M360 420L310 470L360 470V420Z" fill="#F472B6"/>
+    <path d="M540 420L590 470L540 470V420Z" fill="#60A5FA"/>
+    <path d="M420 490L450 560L480 490H420Z" fill="#F59E0B"/>
+    <ellipse cx="450" cy="560" rx="60" ry="24" fill="#F59E0B" fill-opacity="0.5"/>
+  </g>
+  <circle cx="720" cy="420" r="34" fill="#7C3AED" fill-opacity="0.7"/>
+  <circle cx="200" cy="420" r="26" fill="#22D3EE" fill-opacity="0.6"/>
+  <circle cx="260" cy="120" r="18" fill="#F472B6" fill-opacity="0.6"/>
+</svg>
