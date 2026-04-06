@@ -16,3 +16,9 @@ services:
     volumes:
       - ./data:/data
     restart: always
+    networks:
+      - proxy_net
+
+networks:
+  proxy_net:
+    external: true
