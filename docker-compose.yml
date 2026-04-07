@@ -5,8 +5,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    ports:
-      - "3016:3016"
     environment:
       - NODE_ENV=production
       - DATABASE_URL=file:/data/sqlite.db
